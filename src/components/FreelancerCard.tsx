@@ -50,6 +50,7 @@ const FreelancerCard: React.FC<FreelancerCardProps> = ({ freelancer }) => {
               alt={freelancer.name}
               fill
               className='object-cover'
+              unoptimized
             />
           </div>
           <div>
